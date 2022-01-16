@@ -1,0 +1,11 @@
+title:
+  fr_fr: Qui a fait ça??
+  en_us: Who did that??
+tooltip:
+  fr_fr: Trouver qui a fait un changement spécifique dans le modèle.
+  en_us: Figure out who made specific changes in the model.
+author: >-
+    Frederic Beaupere
+    
+    {{author}}
+    

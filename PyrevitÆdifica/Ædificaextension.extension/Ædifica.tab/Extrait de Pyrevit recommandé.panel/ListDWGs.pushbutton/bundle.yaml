@@ -1,0 +1,9 @@
+title:
+  fr_fr: Lister les fichier DWG
+  en_us: List DWGs
+tooltip:
+  fr_fr: Répertorie toutes les instances DWG liées et importées avec les sous-projets et le créateur
+  en_us: Lists all linked and imported DWG instances with worksets and creator
+author: 'Frederic Beaupere'
+
+

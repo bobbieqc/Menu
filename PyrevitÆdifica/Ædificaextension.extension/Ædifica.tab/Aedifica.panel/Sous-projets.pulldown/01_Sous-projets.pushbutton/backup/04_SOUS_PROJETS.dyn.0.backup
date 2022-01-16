@@ -1,0 +1,40 @@
+<Workspace Version="1.3.4.6666" X="1011.81645504225" Y="546.232553645299" zoom="0.528733464502792" ScaleFactor="1" Name="Home" Description="" RunType="Manual" RunPeriod="1000" HasRunWithoutCrash="True">
+  <NamespaceResolutionMap />
+  <Elements>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="35ec8633-fca6-48f5-aad8-533c29c13d9e" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="-219.609261817328" y="148.05199879269" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="&quot;ZL_ARCHITECTURE&quot;;" ShouldFocus="false" />
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="8c511395-7866-4b7f-a36f-29da30e552f9" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="-220.123271336019" y="56.6236575271142" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="&quot;ZL_AXES ET NIVEAUX&quot;;" ShouldFocus="false" />
+    <Dynamo.Graph.Nodes.CustomNodes.Function guid="2b0b61a9-ed12-4788-8a96-de104049573f" type="Dynamo.Graph.Nodes.CustomNodes.Function" nickname="Workset.CreateAndRenameDefault" x="150.773134084868" y="51.9943642450813" isVisible="true" isUpstreamVisible="true" lacing="Shortest" isSelectedInput="False" IsFrozen="false" isPinned="true">
+      <PortInfo index="0" default="False" />
+      <PortInfo index="1" default="True" />
+      <PortInfo index="2" default="True" />
+      <ID value="d485c0d6-d151-47ff-95fb-4d9c38520b5f" />
+      <Name value="Workset.CreateAndRenameDefault" />
+      <Description value="Creates new worksets from a list as well as renaming the default worksets (Shared levels and grids, and Workset 1).&#xD;&#xA;&#xD;&#xA;Tutorial: https://parametricmonkey.com/2017/05/04/create-worksets/" />
+      <Inputs>
+        <Input value="newWorksetNames" />
+        <Input value="sharedLevelsAndGridName" />
+        <Input value="workset1Name" />
+      </Inputs>
+      <Outputs>
+        <Output value="workset" />
+      </Outputs>
+    </Dynamo.Graph.Nodes.CustomNodes.Function>
+    <Dynamo.Graph.Nodes.CodeBlockNodeModel guid="2f8bb4c0-9739-4507-a8c2-9cd6139abf1c" type="Dynamo.Graph.Nodes.CodeBlockNodeModel" nickname="Code Block" x="-591.815804948232" y="68.5996560297291" isVisible="true" isUpstreamVisible="true" lacing="Disabled" isSelectedInput="False" IsFrozen="false" isPinned="false" CodeText="{&quot;E_ALARME INCENDIE&quot;,&#xA;&quot;E_SERVICES&quot;,&#xA;&quot;E_SITE&quot;,&#xA;&quot;E_SOUS DALLE&quot;,&#xA;&quot;E_PANNEAUX&quot;,&#xA;&quot;E_ÉCLAIRAGE&quot;,&#xA;&quot;M_TOITURE&quot;,&#xA;&quot;P_EAU DOMESTIQUE&quot;,&#xA;&quot;P_EQUIPEMENT&quot;,&#xA;&quot;P_SANITAIRE&quot;,&#xA;&quot;P_SOUS DALLE_EAU DOMESTIQUE&quot;,&#xA;&quot;P_SOUS DALLE_SANITAIRE&quot;,&#xA;&quot;PI_PROTECTION INCENDIE&quot;,&#xA;&quot;V_BOUCHE D'AÉRATION&quot;,&#xA;&quot;V_EQUIPEMENT&quot;,&#xA;&quot;V_GAINE&quot;,&#xA;&quot;ZG_ZONE DEFINITION&quot;};" ShouldFocus="false" />
+  </Elements>
+  <Connectors>
+    <Dynamo.Graph.Connectors.ConnectorModel start="35ec8633-fca6-48f5-aad8-533c29c13d9e" start_index="0" end="2b0b61a9-ed12-4788-8a96-de104049573f" end_index="2" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="8c511395-7866-4b7f-a36f-29da30e552f9" start_index="0" end="2b0b61a9-ed12-4788-8a96-de104049573f" end_index="1" portType="0" />
+    <Dynamo.Graph.Connectors.ConnectorModel start="2f8bb4c0-9739-4507-a8c2-9cd6139abf1c" start_index="0" end="2b0b61a9-ed12-4788-8a96-de104049573f" end_index="0" portType="0" />
+  </Connectors>
+  <Notes />
+  <Annotations>
+    <Dynamo.Graph.Annotations.AnnotationModel guid="8aea2161-ac6d-4ab2-9774-27395276e51c" annotationText="Package BVN (nécessaire)" left="-230.123271336019" top="-25.3763424728858" width="223" height="266.428341265576" fontSize="30" InitialTop="56.6236575271142" InitialHeight="383" TextblockHeight="72" backgrouund="#FFC1D676">
+      <Models ModelGuid="35ec8633-fca6-48f5-aad8-533c29c13d9e" />
+      <Models ModelGuid="8c511395-7866-4b7f-a36f-29da30e552f9" />
+    </Dynamo.Graph.Annotations.AnnotationModel>
+  </Annotations>
+  <Presets />
+  <Cameras>
+    <Camera Name="Aperçu en arrière-plan" eyeX="-17" eyeY="24" eyeZ="50" lookX="12" lookY="-13" lookZ="-58" upX="0" upY="1" upZ="0" />
+  </Cameras>
+</Workspace>
